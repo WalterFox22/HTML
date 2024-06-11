@@ -1,0 +1,199 @@
+body{
+    background-color: #000018;
+    margin-left: 0%;
+    margin-right: 0%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.head{
+    display: grid;
+    grid-template-columns: 60% 15% 15% 10%;
+    color: white;
+}
+
+.Logo_head{
+    margin-left: 30px;
+    width: 110px;
+    height: 110px;
+}
+
+.buscador_head{
+    margin-top: 40px;
+}
+
+input.inf_buscar{
+    border-style:solid;
+    border-color: white;
+    border-radius: 15px;
+    padding: 2%;
+    padding-left: 10%;
+    width:200px;
+    margin-left: 50px;
+    background-color: #0f0f29;
+    font-family:Arial, Helvetica, sans-serif;
+
+    
+}
+
+button.boton_inicio{
+    font-family:Arial, Helvetica, sans-serif;
+    border-style:solid;
+    border: none;
+    border-radius: 15px;
+    padding: 2%;
+    width: 120px;
+    height: 27px;
+    margin-top: 40px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+button.boton_inicio a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.user_head{
+    padding: 20%;
+    height: 50px;
+    cursor: pointer;
+}
+
+div.menu_horizontal{
+    
+    background-color: #DDAE64;
+    font-family:Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 45% 55%;
+    grid-template-rows: 57px;
+
+}
+
+div.name_marca{
+    margin-left: 10px;
+    color: white;
+}
+
+
+
+div.secciones{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% ;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+
+.section{
+    text-decoration: none;
+    color: white;
+    padding: 12%;
+    
+}
+
+.section:hover{
+    background-color: #da9a33;
+    padding: 11%;
+}
+
+.Promociones{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% ;
+    padding-left: 8%;
+}
+
+img.promo{
+    border-radius: 15px;
+}
+
+img.promo:hover{
+    box-shadow: 0 .25rem 5rem #da9a33 ;
+}
+
+div.conoce_menu{
+    background-color: whitesmoke;
+    text-align: center;
+    margin: 50px;
+    padding-top: 12px ;
+    padding-bottom: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+.conoce_menu{
+    display: block;
+    margin-top: 20px;
+}
+
+
+
+.boton_menu{
+    padding-top: 100px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #c2821c;
+    padding: .8%;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+.boton_menu:hover{
+    padding-top: 100px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #da9a33;
+    padding: .8%;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+div.boton{
+    padding-top: 10px ;
+}
+
+/*Footer*/
+.Footer{
+    display: flex;
+    background-color: whitesmoke;
+    grid-column: 1/5;
+    grid-row: 6/7;
+    padding-left: 280px;
+}
+.Footer img{
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    padding: 10%;
+    
+    margin: 0 70px;
+}
+.politicos{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    border: none;
+    display: block;
+    text-align: center;
+    background-color:#DDAE64;
+    height: 100%;
+    width: 100%;
+    grid-row: 7/8;
+    grid-column: 1/5;
+}
+
+.Fin{
+    text-decoration: none;
+    color:  #0f0f29;
+}
+
+
+
+
